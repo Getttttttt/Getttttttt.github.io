@@ -1,0 +1,6 @@
+dist/
+_site/
+node_modules/
+vendor/
+Gemfile.lock
+LICENSE

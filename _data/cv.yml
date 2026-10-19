@@ -1,0 +1,20 @@
+cv:
+  name: Entong Gao
+  label: Ph.D. Student
+  sections:
+    Education:
+      - institution: Peking University
+        area: Guanghua School of Management
+        studyType: Ph.D. Student
+    Research Interests:
+      - bullet: Human–AI Interaction
+      - bullet: Agentic AI
+      - bullet: AI Governance
+    Awards:
+      - title: Best Paper Award
+        awarder: 17th International Conference on Cross-Cultural Design, HCI International
+        date: "2025"
+        url: https://2025.hci.international/CCD-best-paper-award.html
+        summary: "“How Do You Understand? Your Eyes Show It”: Explainable Artificial Intelligence for Cross-Language Comprehension Prediction Through Eye Movement"
+    Links:
+      - bullet: "[GitHub](https://github.com/Getttttttt)"
