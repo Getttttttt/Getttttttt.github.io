@@ -1178,3 +1178,52 @@ p {
 .hero-portrait img {
   height: auto;
 }
+
+/* A single editorial row for each selected study on the home page. */
+.selected-research-list {
+  display: flex;
+  flex-direction: column;
+}
+.selected-research-list .research-card {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+  padding-block: 27px;
+  border-bottom: 1px solid var(--line);
+}
+.selected-research-list .research-card:first-child {
+  padding-top: 0;
+}
+.selected-research-list .research-card:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.selected-research-list .research-image {
+  margin-bottom: 0;
+  padding: 16px;
+}
+.research-card-content {
+  min-width: 0;
+}
+.selected-research-list .research-card h3 {
+  font-size: 1.35rem;
+}
+@media (max-width: 720px) {
+  .selected-research-list .research-card {
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 25px;
+  }
+  .selected-research-list .research-card h3 {
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 540px) {
+  .selected-research-list .research-card {
+    display: block;
+    padding-block: 26px;
+  }
+  .selected-research-list .research-image {
+    margin-bottom: 18px;
+  }
+}

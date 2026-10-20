@@ -47,3 +47,9 @@ IEEE TEM 与 IJHCI 应急语音论文使用 2026 卷期年份，并保留 2025 �
 - 最佳论文奖：[HCII 2025 官方公告](https://2025.hci.international/CCD-best-paper-award.html)。
 
 头像为用户提供的猫咪照片，原文件直接复制，只用 CSS 控制显示大小与圆角。
+
+## 2026-10-20 后续修订
+
+按用户要求移除 CV 中指定的一项基金条目，页脚版权行仅保留个人姓名。首页 Selected research 改为单列横排；Projects 的筛选和原有网格保留。
+
+Academic service 依据用户补充的国家自然科学基金申请材料第 38 个 PDF 页面（正文页码 37）的“学术服务”与审稿表彰条目录入：CHI、CHB、IJHCI、HSSC 的同行评审；截至 2026 年 10 月累计完成 19 次以上审稿；CHI 2026 Special Recognition for Outstanding Reviews。数量按审稿次数展示，不推断独立稿件数或每个刊会的次数。HSSC 在此仅作为审稿服务机构，未恢复用户排除的论文条目。该申请材料原件及其他未公开研究内容未上传网站。

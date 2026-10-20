@@ -6,6 +6,8 @@
 
 ## 内容维护
 
+后续修订：首页代表研究采用单列、左图右文；页脚仅保留个人姓名；CV 增加有统计时间的同行评审服务和 CHI 2026 审稿表彰。
+
 - 个人介绍：`_pages/about.md`
 - 头像：`assets/img/cat-profile.jpg`，可替换为同名照片；页面用 CSS 控制显示比例。
 - 完整论文条目与 BibTeX：`_bibliography/papers.bib`

@@ -24,7 +24,7 @@ permalink: /
   </section>
   <section class="section" aria-labelledby="selected-heading">
     <div class="section-heading"><h2 id="selected-heading">Selected research</h2><a href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a></div>
-    <div class="research-grid">{% for research in site.data.research %}{% if research.selected %}{% include research-card.liquid research=research %}{% endif %}{% endfor %}</div>
+    <div class="selected-research-list">{% for research in site.data.research %}{% if research.selected %}{% include research-card.liquid research=research %}{% endif %}{% endfor %}</div>
   </section>
   <section class="section" aria-labelledby="directions-heading">
     <div class="section-heading"><h2 id="directions-heading">Research interests</h2></div>
