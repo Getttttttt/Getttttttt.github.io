@@ -1,37 +1,43 @@
 # Entong Gao 的学术主页
 
-基于官方 [al-folio](https://github.com/alshedivat/al-folio) v1 starter 和 al_folio_core 1.0.15。
+公开站点：[getttttttt.github.io](https://getttttttt.github.io/)。基于官方 al-folio v1 starter 和 al_folio_core 1.0.15。
+
+2026-10-20 修订：深红和暖白配色、猫咪头像、8 篇展示论文、8 个研究详情页及 16 张原始研究图。CHI 与 UIST 各提供一个完整的 OA PDF。履历增加教育经历、基金项目、1 项授权发明专利和 1 项软件著作权。工作论文及用户指定的 HSSC、Energy Reports、World Patent Information 文章未展示。
 
 ## 内容维护
 
-- 个人简介：`_pages/about.md`
-- 头像：将 `assets/img/monogram.svg` 替换为本人照片，并修改 about 页的 `profile.image`
-- 论文：`_bibliography/papers.bib`。添加真实条目后，在 `_data/profile.yml` 把 `publications_available` 设为 `true`
-- 研究项目：`_projects/`；当前三个条目分别对应已发表的 CHI 2026、HCII 2025 与 IJHCS 2025 研究
-- 履历：`_data/cv.yml`
-- 邮箱及社交链接：`_data/socials.yml`
+- 个人介绍：`_pages/about.md`
+- 头像：`assets/img/cat-profile.jpg`，可替换为同名照片；页面用 CSS 控制显示比例。
+- 完整论文条目与 BibTeX：`_bibliography/papers.bib`
+- 研究简介、图注、代表作选择和图片路径：`_data/research.json`
+- 每篇研究的固定网址：`_projects/`；正文由 `_layouts/research.liquid` 渲染。
+- 公开履历：`_pages/cv.md`
+- 视觉样式和页面交互：`assets/css/site.css`、`assets/js/site.js`
+- 论文原图：`assets/img/research/`；OA 全文：`assets/pdf/`
+- 社交账户：`_data/socials.yml`；顶部和底部直接链接也需同步修改。
 
-已根据 Crossref / 出版社公开元数据填入 5 篇论文，并根据大会官网填入 2025 年最佳论文奖。尚未填入未经确认的入学年份、导师、电子邮箱或 CV 下载链接。条目核对记录见 `SOURCES.md`。
+新增论文时，将 BibTeX 与 `research.json` 保持一致，并添加相应 `_projects/<slug>.md`。没有完整 OA 许可的文章只提供出版社链接。原始简历含工作论文和私人联系方式，未将其原件发布为下载文件。
 
-## 本地构建
+## 构建与发布
 
-安装 Ruby 3.3（Windows 请使用 Ruby+Devkit），然后运行：
+使用 Ruby 3.3 与 Bundler：
 
 ```text
 bundle install
-bundle exec jekyll build --destination dist
+bundle exec jekyll build --destination _site
 bundle exec jekyll serve
 ```
 
-## GitHub Pages
+GitHub Actions 已配置为 `main` 分支更新后自动部署 GitHub Pages。公开构建使用 `_config.yml`。私有 Sites 镜像另用 `_config.sites.yml`，构建至 `dist`；`.openai` 仅为镜像托管身份，不需复制到 GitHub Pages。
 
-1. 在 Getttttttt 账号下创建 `Getttttttt.github.io` 仓库。
-2. 上传本文件夹内的源码，包括 `.github/workflows/deploy.yml`。无需上传 `dist`、`node_modules`、`vendor`、`.bundle` 或 `.openai`。
-3. 仓库 Settings → Pages → Source 选择 **GitHub Actions**。
-4. 等待 Build and deploy academic website 工作流成功，网址为 https://getttttttt.github.io/ 。
+本站有意覆盖 al-folio 的 head、header、footer、default 和 bib 模板，并保留 `.al-folio-overrides.yml` 记录。升级 gem 后先执行：
 
-`_config.yml` 已配置该网址，`baseurl` 为空。GitHub Actions 会从 al-folio 源文件构建页面。
+```text
+bundle exec al-folio upgrade overrides audit
+```
+
+只有检查过模板兼容性后，再更新对应覆盖确认。来源与许可记录见 `SOURCES.md`。
 
 ## 许可
 
-保留官方 MIT LICENSE。姓名缩写图和研究方向示意图由本次搭建制作，可替换。
+al-folio 保留 MIT LICENSE。论文、图表和用户头像各遵循其自身权利；CHI/UIST PDF 的 CC BY 4.0 许可及作者署名保留在文件和研究页中。

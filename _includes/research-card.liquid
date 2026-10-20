@@ -1,0 +1,24 @@
+<article class="research-card" data-research-category="{{ include.research.category }}">
+  <a class="research-image" href="{{ include.research.project_url | relative_url }}" tabindex="-1" aria-hidden="true"
+    ><img src="{{ include.research.preview | relative_url }}" alt="" loading="lazy" width="800" height="450"
+  ></a>
+  <div class="venue-line">
+    <span>
+      {{- include.research.venue }}
+      {{ include.research.year -}}
+    </span>
+    {%- if include.research.status == 'Forthcoming' -%}
+      <span class="status-label">Forthcoming</span>
+    {%- endif -%}
+    {%- if include.research.award -%}
+      <span class="status-label">Best Paper Award</span>
+    {%- endif %}
+  </div>
+  <h3>
+    <a href="{{ include.research.project_url | relative_url }}">{{ include.research.title }}</a>
+  </h3>
+  <p>{{ include.research.summary }}</p>
+  <a class="card-link" href="{{ include.research.project_url | relative_url }}"
+    >Explore the study <span aria-hidden="true">↗</span><span class="sr-only">: {{ include.research.title }}</span></a
+  >
+</article>

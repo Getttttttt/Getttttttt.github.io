@@ -1,22 +1,14 @@
 ---
-layout: page
+layout: default
 title: Projects
 permalink: /projects/
-description: Selected published research
 nav: true
 nav_order: 3
 ---
 
-A selection of research on multilingual voice interaction, comprehension, and adaptive AI.
-
-{% assign directions = site.projects | sort: 'importance' %}
-{% for project in directions %}
-<article style="display:flex;align-items:center;gap:1.5rem;border-bottom:1px solid var(--global-divider-color);padding:1.8rem 0">
-  <img src="{{ project.img | relative_url }}" alt="" width="112" height="112" style="max-width:25%;border-radius:4px">
-  <div>
-    <span style="font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--global-text-color-light)">{{ project.venue }}</span>
-    <h2 style="font-size:1.45rem;margin:.35rem 0"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-    <p style="margin:0">{{ project.description }}</p>
-  </div>
-</article>
-{% endfor %}
+<div id="main-content" data-filter-collection="projects">
+  <header class="page-intro"><span class="eyebrow">Research in focus</span><h1>Projects</h1><p>A closer look at my research, with original figures, study overviews, and links to the papers.</p></header>
+  <div class="collection-tools"><div class="filter-tabs" role="group" aria-label="Filter projects by research area"><button type="button" data-category-filter="all" aria-pressed="true">All projects</button><button type="button" data-category-filter="hai" aria-pressed="false">Human–AI Interaction</button><button type="button" data-category-filter="technology" aria-pressed="false">Technology &amp; innovation</button></div><span class="result-count" style="margin:0" data-result-count aria-live="polite">8 projects</span></div>
+  <div class="research-grid project-grid">{% for research in site.data.research %}{% include research-card.liquid research=research %}{% endfor %}</div>
+  <p class="empty-state" data-empty-state hidden>No projects match this filter.</p>
+</div>

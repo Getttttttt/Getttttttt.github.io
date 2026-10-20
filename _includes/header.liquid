@@ -1,0 +1,48 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="academic-header">
+  <div class="container header-inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Entong Gao home"
+      ><span class="wordmark-emblem" aria-hidden="true">EG</span> Entong Gao</a
+    >
+    <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+      <a
+        href="{{ '/' | relative_url }}"
+        {% if page.url == '/' %}
+          aria-current="page"
+        {% endif %}
+        >About</a
+      >
+      <a
+        href="{{ '/publications/' | relative_url }}"
+        {% if page.url contains '/publications/' %}
+          aria-current="page"
+        {% endif %}
+        >Publications</a
+      >
+      <a
+        href="{{ '/projects/' | relative_url }}"
+        {% if page.url contains '/projects/' %}
+          aria-current="page"
+        {% endif %}
+        >Projects</a
+      >
+      <a
+        href="{{ '/cv/' | relative_url }}"
+        {% if page.url contains '/cv/' %}
+          aria-current="page"
+        {% endif %}
+        >CV</a
+      >
+    </nav>
+    <div class="header-actions">
+      <button id="light-toggle" class="theme-button" type="button" title="Change color theme" aria-label="Change color theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor" stroke="none"/>
+        </svg>
+      </button>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        Menu <span aria-hidden="true">☰</span>
+      </button>
+    </div>
+  </div>
+</header>

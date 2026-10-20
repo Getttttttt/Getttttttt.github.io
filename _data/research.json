@@ -1,0 +1,313 @@
+[
+  {
+    "slug": "prejsense",
+    "key": "gao2026prejsense",
+    "title": "PrejSense",
+    "full_title": "PrejSense: Non-intrusive Gaze-Informed Prediction of Implicit Prejudice Against Machine for Proactive Interface Adaptation",
+    "author": "Gao, Entong and Chen, Zhe",
+    "year": 2026,
+    "venue": "UIST",
+    "venue_full": "Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology",
+    "kind": "inproceedings",
+    "pages": "1--23",
+    "doi": "10.1145/3830398.3830669",
+    "doi_unverified": true,
+    "status": "Forthcoming",
+    "category": "hai",
+    "selected": true,
+    "summary": "Gaze-informed, proactive interface adaptation for human–AI collaboration.",
+    "description": "PrejSense investigates how gaze signals can inform an estimate of implicit prejudice against AI. The system combines an interpretable prediction model with an LLM-based agent that adapts its interaction strategies, connecting behavioral sensing to proactive interface support.",
+    "limitation": "This is a proof-of-concept system. Its preliminary user study involved 17 participants; larger-scale validation remains necessary.",
+    "note": "UIST 2026 · November 2–5, Detroit, USA. Forthcoming.",
+    "pdf": "/assets/pdf/prejsense-uist-2026.pdf",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "figures": [
+      {
+        "src": "/assets/img/research/prejsense-overview.jpg",
+        "caption": "Overview of PrejSense in the human–AI collaboration loop.",
+        "number": "Figure 1"
+      },
+      {
+        "src": "/assets/img/research/prejsense-framework.jpg",
+        "caption": "The research framework, from gaze-based prediction to proactive interface adaptation.",
+        "number": "Figure 2"
+      }
+    ],
+    "project_url": "/projects/prejsense/",
+    "preview": "/assets/img/research/prejsense-overview.jpg",
+    "authors_display": "Gao, Entong; Chen, Zhe",
+    "authors_readable": "Entong Gao; Zhe Chen",
+    "source_url": "/assets/pdf/prejsense-uist-2026.pdf",
+    "importance": 1,
+    "attribution": "Entong Gao; Zhe Chen. UIST 2026."
+  },
+  {
+    "slug": "ueqmanager",
+    "key": "gao2026ueqmanager",
+    "title": "UEQManager",
+    "full_title": "UEQManager: A Non-intrusive and Real-time System for Recognizing and Managing UEQ in Multilingual Voice Assistants",
+    "author": "Gao, Entong and Yuan, Haisu and Zhong, Hanyu and Yuan, Ruiqing and Chen, Zhe",
+    "year": 2026,
+    "venue": "CHI",
+    "venue_full": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+    "kind": "inproceedings",
+    "pages": "1--26",
+    "doi": "10.1145/3772318.3790990",
+    "category": "hai",
+    "selected": true,
+    "summary": "Recognizing and supporting user experience in multilingual voice interaction.",
+    "description": "UEQManager explores a non-intrusive approach to recognizing user experience quality during interaction with multilingual voice assistants. It connects behavioral and physiological signals, interpretable modeling, and adaptive agent strategies in a real-time system.",
+    "pdf": "/assets/pdf/ueqmanager-chi-2026.pdf",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "figures": [
+      {
+        "src": "/assets/img/research/ueqmanager-framework.jpg",
+        "caption": "Research framework linking user experience recognition with adaptive interaction.",
+        "number": "Figure 2"
+      },
+      {
+        "src": "/assets/img/research/ueqmanager-interface.jpg",
+        "caption": "A user case illustrating the interface and adaptive support.",
+        "number": "Figure 8"
+      }
+    ],
+    "project_url": "/projects/ueqmanager/",
+    "preview": "/assets/img/research/ueqmanager-framework.jpg",
+    "authors_display": "Gao, Entong; Yuan, Haisu; Zhong, Hanyu; Yuan, Ruiqing; Chen, Zhe",
+    "authors_readable": "Entong Gao; Haisu Yuan; Hanyu Zhong; Ruiqing Yuan; Zhe Chen",
+    "source_url": "https://doi.org/10.1145/3772318.3790990",
+    "importance": 2,
+    "status": "Published",
+    "attribution": "Entong Gao; Haisu Yuan; Hanyu Zhong; Ruiqing Yuan; Zhe Chen. CHI 2026."
+  },
+  {
+    "slug": "voice-under-noise",
+    "key": "gao2026noise",
+    "title": "Multilingual voice interaction under noise",
+    "full_title": "Multi-Language Intelligent Voice Interaction Under Noise: How the Noise Type and Signal-to-Noise Ratio Shape Comprehension Performance, Pupil Activity and User Experience Quality",
+    "doi": "10.1080/10447318.2026.2690099",
+    "category": "hai",
+    "selected": true,
+    "summary": "How noise type and signal-to-noise ratio shape comprehension and user experience.",
+    "description": "This study examines multilingual voice interaction under different noise types and signal-to-noise ratios. Comprehension measures, pupil activity, and user experience assessments provide complementary views of how people process voice-based information in challenging listening conditions.",
+    "note": "Published online July 7, 2026.",
+    "figures": [
+      {
+        "src": "/assets/img/research/noise-framework.jpg",
+        "caption": "Research procedure for comparing language, noise type, and signal-to-noise ratio.",
+        "number": "Figure 1"
+      },
+      {
+        "src": "/assets/img/research/noise-environment.jpg",
+        "caption": "Experimental environment and equipment used in the voice interaction study.",
+        "number": "Figure 3"
+      }
+    ],
+    "author": "Gao, Entong and Wang, Yubo and Liu, Boyang and Bo, Danya and Zhang, Lei and Chen, Zhe",
+    "year": 2026,
+    "kind": "article",
+    "venue": "IJHCI",
+    "venue_full": "International Journal of Human–Computer Interaction",
+    "pages": "1--37",
+    "project_url": "/projects/voice-under-noise/",
+    "preview": "/assets/img/research/noise-framework.jpg",
+    "authors_display": "Gao, Entong; Wang, Yubo; Liu, Boyang; Bo, Danya; Zhang, Lei; Chen, Zhe",
+    "authors_readable": "Entong Gao; Yubo Wang; Boyang Liu; Danya Bo; Lei Zhang; Zhe Chen",
+    "source_url": "https://doi.org/10.1080/10447318.2026.2690099",
+    "importance": 3,
+    "status": "Published",
+    "attribution": "Entong Gao; Yubo Wang; Boyang Liu; Danya Bo; Lei Zhang; Zhe Chen. IJHCI 2026."
+  },
+  {
+    "slug": "eyes-show-it",
+    "key": "gao2025eyes",
+    "title": "“Your Eyes Show It”",
+    "full_title": "“How Do You Understand? Your Eyes Show It”: Explainable Artificial Intelligence for Cross-Language Comprehension Prediction Through Eye Movement",
+    "author": "Gao, Entong and Zhong, Hanyu and Yuan, Ruiqing and Guo, Jialu and Chen, Zhe",
+    "year": 2025,
+    "venue": "HCII",
+    "venue_full": "Cross-Cultural Design (HCII 2025)",
+    "kind": "inproceedings",
+    "pages": "323--348",
+    "doi": "10.1007/978-3-031-93733-0_21",
+    "category": "hai",
+    "selected": true,
+    "award": "Best Paper Award · Cross-Cultural Design, HCII 2025",
+    "award_url": "https://2025.hci.international/CCD-best-paper-award.html",
+    "summary": "Explainable AI for cross-language comprehension prediction through eye movement.",
+    "description": "This work studies eye movement as a signal of comprehension in native and nonnative language settings. It combines predictive modeling and explainable AI with experiments on how AI agents can adapt interaction strategies to users’ comprehension.",
+    "figures": [
+      {
+        "src": "/assets/img/research/eyes-framework.jpg",
+        "caption": "Research framework for eye movement analysis, comprehension prediction, and agent adaptation.",
+        "number": "Figure 1"
+      },
+      {
+        "src": "/assets/img/research/eyes-agents.jpg",
+        "caption": "Design of the agent experiment.",
+        "number": "Figure 2"
+      }
+    ],
+    "project_url": "/projects/eyes-show-it/",
+    "preview": "/assets/img/research/eyes-framework.jpg",
+    "authors_display": "Gao, Entong; Zhong, Hanyu; Yuan, Ruiqing; Guo, Jialu; Chen, Zhe",
+    "authors_readable": "Entong Gao; Hanyu Zhong; Ruiqing Yuan; Jialu Guo; Zhe Chen",
+    "source_url": "https://doi.org/10.1007/978-3-031-93733-0_21",
+    "importance": 4,
+    "status": "Published",
+    "attribution": "Entong Gao; Hanyu Zhong; Ruiqing Yuan; Jialu Guo; Zhe Chen. HCII 2025."
+  },
+  {
+    "slug": "voice-activated-education",
+    "key": "gao2025education",
+    "title": "Comprehension & user experience",
+    "full_title": "How does comprehension affect user experience quality in multilanguage voice-activated intelligent education?",
+    "author": "Gao, Entong and Liu, Yun and Zhou, Yage and Guo, Jialu and Chen, Zhe",
+    "year": 2025,
+    "venue": "IJHCS",
+    "venue_full": "International Journal of Human-Computer Studies",
+    "kind": "article",
+    "pages": "103551",
+    "volume": "203",
+    "doi": "10.1016/j.ijhcs.2025.103551",
+    "category": "hai",
+    "summary": "Understanding the relationship between comprehension and experience in voice-based learning.",
+    "description": "This research investigates comprehension and user experience quality in multilingual voice-activated intelligent education. It considers both subjective understanding and objective performance, connecting the design of voice interaction to users’ learning experiences.",
+    "figures": [
+      {
+        "src": "/assets/img/research/education-framework.jpg",
+        "caption": "Research framework for comprehension and user experience quality.",
+        "number": "Figure 2"
+      },
+      {
+        "src": "/assets/img/research/education-experiment.jpg",
+        "caption": "The experimental design for multilingual voice-activated intelligent education.",
+        "number": "Figure 4"
+      }
+    ],
+    "project_url": "/projects/voice-activated-education/",
+    "preview": "/assets/img/research/education-framework.jpg",
+    "authors_display": "Gao, Entong; Liu, Yun; Zhou, Yage; Guo, Jialu; Chen, Zhe",
+    "authors_readable": "Entong Gao; Yun Liu; Yage Zhou; Jialu Guo; Zhe Chen",
+    "source_url": "https://doi.org/10.1016/j.ijhcs.2025.103551",
+    "importance": 5,
+    "status": "Published",
+    "attribution": "Entong Gao; Yun Liu; Yage Zhou; Jialu Guo; Zhe Chen. IJHCS 2025."
+  },
+  {
+    "slug": "driving-voice-assistant",
+    "key": "cui2026driving",
+    "title": "AI companionship during driving",
+    "full_title": "Exploring the Effects of an AI Voice Assistant on Drivers’ Loneliness and Affect During Long-Distance Driving Under Partial Driving Automation",
+    "doi": "10.1080/10447318.2026.2674836",
+    "category": "hai",
+    "summary": "Studying loneliness, social support, and affect during partially automated driving.",
+    "description": "This study examines an AI voice assistant in the context of long-distance driving under partial automation. A driving simulator study considers perceived social support, loneliness, and affect, alongside drivers’ accounts of their experience with the assistant.",
+    "note": "Published online June 14, 2026.",
+    "figures": [
+      {
+        "src": "/assets/img/research/driving-environment.jpg",
+        "caption": "The driving simulator and experimental apparatus.",
+        "number": "Figure 1"
+      },
+      {
+        "src": "/assets/img/research/driving-social-support.jpg",
+        "caption": "Estimated marginal means of perceived social support under different experimental conditions. Error bars are standard errors of the means.",
+        "number": "Figure 2"
+      }
+    ],
+    "author": "Cui, Zixin and Gao, Entong and Yang, Fan and Liu, Qiang and Yao, Hua",
+    "year": 2026,
+    "kind": "article",
+    "venue": "IJHCI",
+    "venue_full": "International Journal of Human–Computer Interaction",
+    "pages": "1--31",
+    "project_url": "/projects/driving-voice-assistant/",
+    "preview": "/assets/img/research/driving-environment.jpg",
+    "authors_display": "Cui, Zixin; Gao, Entong; Yang, Fan; Liu, Qiang; Yao, Hua",
+    "authors_readable": "Zixin Cui; Entong Gao; Fan Yang; Qiang Liu; Hua Yao",
+    "source_url": "https://doi.org/10.1080/10447318.2026.2674836",
+    "importance": 6,
+    "status": "Published",
+    "attribution": "Zixin Cui; Entong Gao; Fan Yang; Qiang Liu; Hua Yao. IJHCI 2026."
+  },
+  {
+    "slug": "voice-in-emergencies",
+    "key": "wang2026emergencies",
+    "title": "Voice communication in emergencies",
+    "full_title": "How Text Length and Speech Rate Affect the Comprehensibility of Intelligent Voice Assistants During Emergencies Such as Earthquakes and Typhoons",
+    "author": "Wang, Yubo and Gao, Entong and Zhou, Yage and Mo, Jinjin and Chen, Zhe",
+    "year": 2026,
+    "venue": "IJHCI",
+    "venue_full": "International Journal of Human–Computer Interaction",
+    "kind": "article",
+    "pages": "374--399",
+    "volume": "42",
+    "number": "1",
+    "doi": "10.1080/10447318.2025.2508305",
+    "category": "hai",
+    "summary": "Designing voice information for comprehension under urgent conditions.",
+    "description": "This research explores text length and speech rate in voice messages about earthquakes and typhoons. The study considers comprehensibility, intelligibility, trustworthiness, and users’ responses to emergency information.",
+    "note": "2026 journal issue; first published online in June 2025.",
+    "figures": [
+      {
+        "src": "/assets/img/research/emergency-comprehensibility.jpg",
+        "caption": "Interaction between text length and speech rate in comprehensibility. Original significance annotations are retained.",
+        "number": "Figure 1"
+      },
+      {
+        "src": "/assets/img/research/emergency-intelligibility.jpg",
+        "caption": "Interaction between text length and speech rate in intelligibility. Original significance annotations are retained.",
+        "number": "Figure 2"
+      }
+    ],
+    "project_url": "/projects/voice-in-emergencies/",
+    "preview": "/assets/img/research/emergency-comprehensibility.jpg",
+    "authors_display": "Wang, Yubo; Gao, Entong; Zhou, Yage; Mo, Jinjin; Chen, Zhe",
+    "authors_readable": "Yubo Wang; Entong Gao; Yage Zhou; Jinjin Mo; Zhe Chen",
+    "source_url": "https://doi.org/10.1080/10447318.2025.2508305",
+    "importance": 7,
+    "status": "Published",
+    "attribution": "Yubo Wang; Entong Gao; Yage Zhou; Jinjin Mo; Zhe Chen. IJHCI 2026."
+  },
+  {
+    "slug": "strategic-patenting",
+    "key": "wei2026energy",
+    "title": "Strategic patenting & technological evolution",
+    "full_title": "Strategic Patenting and Technological Evolution in Energy Utilization and Recovery",
+    "doi": "10.1109/TEM.2025.3633877",
+    "year": 2026,
+    "venue": "IEEE TEM",
+    "venue_full": "IEEE Transactions on Engineering Management",
+    "kind": "article",
+    "volume": "73",
+    "pages": "289--304",
+    "category": "technology",
+    "summary": "Patent analytics for understanding the evolution of energy utilization and recovery technologies.",
+    "description": "This work studies technological evolution in energy utilization and recovery using patent data. It combines technology classification, network analysis, and machine learning to examine development trajectories and the structure of innovation in the field.",
+    "note": "2026 journal issue; first published online in 2025.",
+    "figures": [
+      {
+        "src": "/assets/img/research/energy-framework.jpg",
+        "caption": "Research framework for strategic patent analytics and technological evolution.",
+        "number": "Figure 1"
+      },
+      {
+        "src": "/assets/img/research/energy-network.jpg",
+        "caption": "IPC co-occurrence network. Source: Google Patents database and the authors’ calculations.",
+        "number": "Figure 11"
+      }
+    ],
+    "author": "Wei, Yigang and Gao, Entong and Guo, Jialu and Jia, Yunhuan and Zhang, Zhenhua and Wojewodzki, Michal and Wu, Qiying",
+    "project_url": "/projects/strategic-patenting/",
+    "preview": "/assets/img/research/energy-framework.jpg",
+    "authors_display": "Wei, Yigang; Gao, Entong; Guo, Jialu; Jia, Yunhuan; Zhang, Zhenhua; Wojewodzki, Michal; Wu, Qiying",
+    "authors_readable": "Yigang Wei; Entong Gao; Jialu Guo; Yunhuan Jia; Zhenhua Zhang; Michal Wojewodzki; Qiying Wu",
+    "source_url": "https://doi.org/10.1109/TEM.2025.3633877",
+    "importance": 8,
+    "status": "Published",
+    "attribution": "Yigang Wei; Entong Gao; Jialu Guo; Yunhuan Jia; Zhenhua Zhang; Michal Wojewodzki; Qiying Wu. IEEE TEM 2026."
+  }
+]

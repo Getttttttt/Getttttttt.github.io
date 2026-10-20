@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    {% include head.liquid %}
+  </head>
+  <body class="site-body">
+    {% include header.liquid %}
+    <main class="container" role="main">{{ content }}</main>
+    {% include footer.liquid %}
+    {% include scripts.liquid %}
+  </body>
+</html>
